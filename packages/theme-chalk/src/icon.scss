@@ -1,13 +1,10 @@
-@use 'mixins/mixinx' as *;
+@use 'mixins/mixins' as *;
 
 @include b('icon') {
   height: 1em;
   width: 1em;
-  line-height: 1em;
-  display: inline-block;
+  display: inline-flex;
   vertical-align: middle;
   svg {
-    height: 1em;
-    width: 1em;
   }
 }

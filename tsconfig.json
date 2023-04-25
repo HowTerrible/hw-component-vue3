@@ -15,7 +15,7 @@
       "DOM"
     ],
     "types": [
-      "unplugin-vue-macros/macros-global"
+      "unplugin-vue-define-options/macros-global"
     ],
     "allowSyntheticDefaultImports": true, // 允许没有导出的模块中导入
     "experimentalDecorators": true, // 装饰器语法
@@ -30,14 +30,10 @@
     "dist/**"
   ],
   "vueCompilerOptions": {
+    "target": 3, // or 2.7 for Vue 2
     "plugins": [
-      "@vue-macros/volar/define-options",
-      "@vue-macros/volar/define-models",
-      "@vue-macros/volar/define-props",
-      "@vue-macros/volar/define-props-refs",
-      "@vue-macros/volar/short-vmodel",
-      "@vue-macros/volar/define-slots",
-      "@vue-macros/volar/export-props"
+      "@vue-macros/volar/define-options"
+      // ...more feature
     ]
   }
 }

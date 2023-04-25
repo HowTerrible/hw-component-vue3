@@ -1,11 +1,15 @@
-import DefaultTheme from "vitepress/theme"
+import DefaultTheme from 'vitepress/theme';
 
-import HwIcon from "@hw/components/icon"
-import "@hw/theme-chalk/src/index.scss"
+import '@hw/theme-chalk/src/index.scss';
+
+import HwIcon from '@hw/components/icon';
+import HwButton from '@hw/components/button';
+
+const plugins = [HwIcon, HwButton];
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
-    app.use(HwIcon) // 在VitePress中注册全局组件
+    plugins.forEach(plugin => app.use(plugin));
   }
-}
+};

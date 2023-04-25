@@ -1,17 +1,17 @@
 {
-  "hash": "c18573a0",
-  "browserHash": "f62e7d3d",
+  "hash": "37628d11",
+  "browserHash": "659df5f1",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue@3.2.47/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "4c21fae1",
+      "fileHash": "c710e0c4",
       "needsInterop": false
     },
     "@vicons/ionicons5": {
       "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+@vicons+ionicons5@0.12.0/node_modules/@vicons/ionicons5/es/index.js",
       "file": "@vicons_ionicons5.js",
-      "fileHash": "046bdb61",
+      "fileHash": "a4eb8895",
       "needsInterop": false
     }
   },
